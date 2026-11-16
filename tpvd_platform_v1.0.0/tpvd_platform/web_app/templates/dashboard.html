@@ -1,0 +1,130 @@
+{% extends "base.html" %}
+
+{% block title %}系统全景看板 - TPV-D 实训达成评价与复核辅助系统{% endblock %}
+
+{% block content %}
+<div class="row mb-4">
+    <div class="col-md-3">
+        <div class="card card-custom p-3">
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <div class="text-muted small">实训参与学生总数</div>
+                    <div class="metric-badge">{{ metrics.total_students }} <span class="fs-6 text-muted">人</span></div>
+                </div>
+                <div class="fs-1 text-primary"><i class="bi bi-people-fill"></i></div>
+            </div>
+            <div class="mt-2 text-muted small"><i class="bi bi-check-circle-fill text-success me-1"></i>提交材料规范完整率 100%</div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card card-custom p-3 border-danger-subtle bg-danger-subtle bg-opacity-10">
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <div class="text-danger small fw-bold">触发规则标记 (Ri=1)</div>
+                    <div class="metric-badge text-danger">{{ metrics.rule_flagged_count }} <span class="fs-6 text-muted">人</span></div>
+                </div>
+                <div class="fs-1 text-danger"><i class="bi bi-exclamation-triangle-fill"></i></div>
+            </div>
+            <div class="mt-2 text-danger small"><i class="bi bi-arrow-up-right me-1"></i>作品较高但独立考核未达标 (14.7%)</div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card card-custom p-3">
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <div class="text-primary small fw-bold">随机质量抽检 (N_Q)</div>
+                    <div class="metric-badge text-primary">{{ metrics.random_sample_count }} <span class="fs-6 text-muted">人</span></div>
+                </div>
+                <div class="fs-1 text-primary"><i class="bi bi-shuffle"></i></div>
+            </div>
+            <div class="mt-2 text-muted small"><i class="bi bi-shield-check text-info me-1"></i>从未标记学生中按 8.4% 抽样</div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card card-custom p-3 border-success-subtle bg-success-subtle bg-opacity-10">
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <div class="text-success small fw-bold">人工复核人数减少率 (L)</div>
+                    <div class="metric-badge text-success">{{ metrics.workload_reduction_percent }}%</div>
+                </div>
+                <div class="fs-1 text-success"><i class="bi bi-clock-history"></i></div>
+            </div>
+            <div class="mt-2 text-success small"><i class="bi bi-lightning-charge-fill me-1"></i>复核耗时从 380min 降至 88min</div>
+        </div>
+    </div>
+</div>
+
+<div class="row g-4 mb-4">
+    <!-- 课程目标达成度卡片 -->
+    <div class="col-lg-6">
+        <div class="card card-custom h-100">
+            <div class="card-header bg-white fw-bold py-3 d-flex justify-content-between align-items-center">
+                <span><i class="bi bi-bullseye text-primary me-2"></i>课程目标综合达成度测算 (OBE基准线: 0.70)</span>
+                <span class="badge bg-success">全项达标</span>
+            </div>
+            <div class="card-body">
+                {% for clo_id, attainment in metrics.clo_attainments.items() %}
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span class="fw-bold">{{ clo_id }}: {{ clos[clo_id].name }}</span>
+                        <span class="fw-bold {% if attainment >= 0.70 %}text-success{% else %}text-danger{% endif %}">
+                            {{ "%.2f"|format(attainment) }} / 1.00
+                        </span>
+                    </div>
+                    <div class="progress" style="height: 14px;">
+                        <div class="progress-bar {% if clo_id == 'CT3' %}bg-success{% elif clo_id == 'CT4' %}bg-warning text-dark{% else %}bg-primary{% endif %}" 
+                             role="progressbar" 
+                             style="width: {{ attainment * 100 }}%">
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+                <div class="alert alert-light border small text-muted mt-3 mb-0">
+                    <i class="bi bi-info-circle-fill text-primary me-1"></i>
+                    数据依托全班 95 名学生 T、P、V-I 与 V-AI 表现量规依据式 (1) 与式 (2) 真实测算。CT3（测试验证）达成度最高（0.84），CT4（AIGC批判判断）达成度为0.76，后续将强化对抗性暗病排障训练。
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 平台人机协同效能卡片 -->
+    <div class="col-lg-6">
+        <div class="card card-custom h-100">
+            <div class="card-header bg-white fw-bold py-3">
+                <i class="bi bi-sliders text-primary me-2"></i>平台运行与仲裁效能实证指标 (对标论文表 11)
+            </div>
+            <div class="card-body p-0">
+                <table class="table table-hover mb-0">
+                    <tbody>
+                        <tr>
+                            <td class="ps-4">平台初判与教师复核一致率</td>
+                            <td class="text-end pe-4 fw-bold text-success">{{ metrics.review_agreement_rate_percent }}% (21/22)</td>
+                        </tr>
+                        <tr>
+                            <td class="ps-4">变式任务下发与完成率</td>
+                            <td class="text-end pe-4 fw-bold">100.0% (14/14)</td>
+                        </tr>
+                        <tr>
+                            <td class="ps-4">变式同类异构再测通过率</td>
+                            <td class="text-end pe-4 fw-bold text-primary">{{ metrics.retest_pass_rate_percent }}% (12/14)</td>
+                        </tr>
+                        <tr>
+                            <td class="ps-4">教师实际复核用时</td>
+                            <td class="text-end pe-4 fw-bold">{{ metrics.actual_review_time_min }} 分钟</td>
+                        </tr>
+                        <tr>
+                            <td class="ps-4">对比全员逐一复核估算耗时</td>
+                            <td class="text-end pe-4 text-muted">{{ metrics.baseline_estimated_time_min }} 分钟 (节约 76.8%)</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="p-3 bg-light border-top text-end">
+                    <a href="/teacher" class="btn btn-primary btn-sm">
+                        <i class="bi bi-arrow-right-circle me-1"></i>进入教师优先复核工作台
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

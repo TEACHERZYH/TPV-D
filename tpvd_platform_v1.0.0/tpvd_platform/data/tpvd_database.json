@@ -1,0 +1,2791 @@
+{
+  "students": {
+    "EI001": {
+      "student_id": "EI001",
+      "name": "学生_01",
+      "group_id": "Group_01",
+      "role_name": "信号链与驱动工程师 (ADC/DMA)",
+      "git_branch": "feature/adc-driver",
+      "commit_sha": "f4e37f50"
+    },
+    "EI002": {
+      "student_id": "EI002",
+      "name": "学生_02",
+      "group_id": "Group_01",
+      "role_name": "实时算法工程师 (定点DSP/IIR)",
+      "git_branch": "feature/dsp-filter",
+      "commit_sha": "e6ab855c"
+    },
+    "EI003": {
+      "student_id": "EI003",
+      "name": "学生_03",
+      "group_id": "Group_01",
+      "role_name": "无线通信工程师 (协议/CRC/ARQ)",
+      "git_branch": "feature/rf-comm",
+      "commit_sha": "8108dbf4"
+    },
+    "EI004": {
+      "student_id": "EI004",
+      "name": "学生_04",
+      "group_id": "Group_01",
+      "role_name": "系统架构工程师 (内存/低功耗/FreeRTOS)",
+      "git_branch": "feature/sys-deploy",
+      "commit_sha": "15a3112d"
+    },
+    "EI005": {
+      "student_id": "EI005",
+      "name": "学生_05",
+      "group_id": "Group_01",
+      "role_name": "质量测试工程师 (CI/CD自动化测试)",
+      "git_branch": "feature/qa-test",
+      "commit_sha": "b3d12436"
+    },
+    "EI006": {
+      "student_id": "EI006",
+      "name": "学生_06",
+      "group_id": "Group_02",
+      "role_name": "信号链与驱动工程师 (ADC/DMA)",
+      "git_branch": "feature/adc-driver",
+      "commit_sha": "8b5d722f"
+    },
+    "EI007": {
+      "student_id": "EI007",
+      "name": "学生_07",
+      "group_id": "Group_02",
+      "role_name": "实时算法工程师 (定点DSP/IIR)",
+      "git_branch": "feature/dsp-filter",
+      "commit_sha": "5a4d99d4"
+    },
+    "EI008": {
+      "student_id": "EI008",
+      "name": "学生_08",
+      "group_id": "Group_02",
+      "role_name": "无线通信工程师 (协议/CRC/ARQ)",
+      "git_branch": "feature/rf-comm",
+      "commit_sha": "bd49c163"
+    },
+    "EI009": {
+      "student_id": "EI009",
+      "name": "学生_09",
+      "group_id": "Group_02",
+      "role_name": "系统架构工程师 (内存/低功耗/FreeRTOS)",
+      "git_branch": "feature/sys-deploy",
+      "commit_sha": "70f4bc05"
+    },
+    "EI010": {
+      "student_id": "EI010",
+      "name": "学生_10",
+      "group_id": "Group_02",
+      "role_name": "质量测试工程师 (CI/CD自动化测试)",
+      "git_branch": "feature/qa-test",
+      "commit_sha": "dff87006"
+    },
+    "EI011": {
+      "student_id": "EI011",
+      "name": "学生_11",
+      "group_id": "Group_03",
+      "role_name": "信号链与驱动工程师 (ADC/DMA)",
+      "git_branch": "feature/adc-driver",
+      "commit_sha": "dbfa1322"
+    },
+    "EI012": {
+      "student_id": "EI012",
+      "name": "学生_12",
+      "group_id": "Group_03",
+      "role_name": "实时算法工程师 (定点DSP/IIR)",
+      "git_branch": "feature/dsp-filter",
+      "commit_sha": "3d353ab1"
+    },
+    "EI013": {
+      "student_id": "EI013",
+      "name": "学生_13",
+      "group_id": "Group_03",
+      "role_name": "无线通信工程师 (协议/CRC/ARQ)",
+      "git_branch": "feature/rf-comm",
+      "commit_sha": "2d63fca5"
+    },
+    "EI014": {
+      "student_id": "EI014",
+      "name": "学生_14",
+      "group_id": "Group_03",
+      "role_name": "系统架构工程师 (内存/低功耗/FreeRTOS)",
+      "git_branch": "feature/sys-deploy",
+      "commit_sha": "f4cd3a27"
+    },
+    "EI015": {
+      "student_id": "EI015",
+      "name": "学生_15",
+      "group_id": "Group_03",
+      "role_name": "质量测试工程师 (CI/CD自动化测试)",
+      "git_branch": "feature/qa-test",
+      "commit_sha": "5e9f9010"
+    },
+    "EI016": {
+      "student_id": "EI016",
+      "name": "学生_16",
+      "group_id": "Group_04",
+      "role_name": "信号链与驱动工程师 (ADC/DMA)",
+      "git_branch": "feature/adc-driver",
+      "commit_sha": "21588804"
+    },
+    "EI017": {
+      "student_id": "EI017",
+      "name": "学生_17",
+      "group_id": "Group_04",
+      "role_name": "实时算法工程师 (定点DSP/IIR)",
+      "git_branch": "feature/dsp-filter",
+      "commit_sha": "7266b401"
+    },
+    "EI018": {
+      "student_id": "EI018",
+      "name": "学生_18",
+      "group_id": "Group_04",
+      "role_name": "无线通信工程师 (协议/CRC/ARQ)",
+      "git_branch": "feature/rf-comm",
+      "commit_sha": "85840d25"
+    },
+    "EI019": {
+      "student_id": "EI019",
+      "name": "学生_19",
+      "group_id": "Group_04",
+      "role_name": "系统架构工程师 (内存/低功耗/FreeRTOS)",
+      "git_branch": "feature/sys-deploy",
+      "commit_sha": "22416a48"
+    },
+    "EI020": {
+      "student_id": "EI020",
+      "name": "学生_20",
+      "group_id": "Group_04",
+      "role_name": "质量测试工程师 (CI/CD自动化测试)",
+      "git_branch": "feature/qa-test",
+      "commit_sha": "5cd0b290"
+    },
+    "EI021": {
+      "student_id": "EI021",
+      "name": "学生_21",
+      "group_id": "Group_05",
+      "role_name": "信号链与驱动工程师 (ADC/DMA)",
+      "git_branch": "feature/adc-driver",
+      "commit_sha": "96caa08c"
+    },
+    "EI022": {
+      "student_id": "EI022",
+      "name": "学生_22",
+      "group_id": "Group_05",
+      "role_name": "实时算法工程师 (定点DSP/IIR)",
+      "git_branch": "feature/dsp-filter",
+      "commit_sha": "a3e1be0c"
+    },
+    "EI023": {
+      "student_id": "EI023",
+      "name": "学生_23",
+      "group_id": "Group_05",
+      "role_name": "无线通信工程师 (协议/CRC/ARQ)",
+      "git_branch": "feature/rf-comm",
+      "commit_sha": "f50671ca"
+    },
+    "EI024": {
+      "student_id": "EI024",
+      "name": "学生_24",
+      "group_id": "Group_05",
+      "role_name": "系统架构工程师 (内存/低功耗/FreeRTOS)",
+      "git_branch": "feature/sys-deploy",
+      "commit_sha": "3a291aee"
+    },
+    "EI025": {
+      "student_id": "EI025",
+      "name": "学生_25",
+      "group_id": "Group_05",
+      "role_name": "质量测试工程师 (CI/CD自动化测试)",
+      "git_branch": "feature/qa-test",
+      "commit_sha": "38f4bb21"
+    },
+    "EI026": {
+      "student_id": "EI026",
+      "name": "学生_26",
+      "group_id": "Group_06",
+      "role_name": "信号链与驱动工程师 (ADC/DMA)",
+      "git_branch": "feature/adc-driver",
+      "commit_sha": "c7c3dbf1"
+    },
+    "EI027": {
+      "student_id": "EI027",
+      "name": "学生_27",
+      "group_id": "Group_06",
+      "role_name": "实时算法工程师 (定点DSP/IIR)",
+      "git_branch": "feature/dsp-filter",
+      "commit_sha": "6f014b47"
+    },
+    "EI028": {
+      "student_id": "EI028",
+      "name": "学生_28",
+      "group_id": "Group_06",
+      "role_name": "无线通信工程师 (协议/CRC/ARQ)",
+      "git_branch": "feature/rf-comm",
+      "commit_sha": "31e9da37"
+    },
+    "EI029": {
+      "student_id": "EI029",
+      "name": "学生_29",
+      "group_id": "Group_06",
+      "role_name": "系统架构工程师 (内存/低功耗/FreeRTOS)",
+      "git_branch": "feature/sys-deploy",
+      "commit_sha": "33fba7ca"
+    },
+    "EI030": {
+      "student_id": "EI030",
+      "name": "学生_30",
+      "group_id": "Group_06",
+      "role_name": "质量测试工程师 (CI/CD自动化测试)",
+      "git_branch": "feature/qa-test",
+      "commit_sha": "cb641082"
+    },
+    "EI031": {
+      "student_id": "EI031",
+      "name": "学生_31",
+      "group_id": "Group_07",
+      "role_name": "信号链与驱动工程师 (ADC/DMA)",
+      "git_branch": "feature/adc-driver",
+      "commit_sha": "aab4e918"
+    },
+    "EI032": {
+      "student_id": "EI032",
+      "name": "学生_32",
+      "group_id": "Group_07",
+      "role_name": "实时算法工程师 (定点DSP/IIR)",
+      "git_branch": "feature/dsp-filter",
+      "commit_sha": "caccbaed"
+    },
+    "EI033": {
+      "student_id": "EI033",
+      "name": "学生_33",
+      "group_id": "Group_07",
+      "role_name": "无线通信工程师 (协议/CRC/ARQ)",
+      "git_branch": "feature/rf-comm",
+      "commit_sha": "f4e4801e"
+    },
+    "EI034": {
+      "student_id": "EI034",
+      "name": "学生_34",
+      "group_id": "Group_07",
+      "role_name": "系统架构工程师 (内存/低功耗/FreeRTOS)",
+      "git_branch": "feature/sys-deploy",
+      "commit_sha": "b0835b63"
+    },
+    "EI035": {
+      "student_id": "EI035",
+      "name": "学生_35",
+      "group_id": "Group_07",
+      "role_name": "质量测试工程师 (CI/CD自动化测试)",
+      "git_branch": "feature/qa-test",
+      "commit_sha": "e21c0e9d"
+    },
+    "EI036": {
+      "student_id": "EI036",
+      "name": "学生_36",
+      "group_id": "Group_08",
+      "role_name": "信号链与驱动工程师 (ADC/DMA)",
+      "git_branch": "feature/adc-driver",
+      "commit_sha": "ae46c843"
+    },
+    "EI037": {
+      "student_id": "EI037",
+      "name": "学生_37",
+      "group_id": "Group_08",
+      "role_name": "实时算法工程师 (定点DSP/IIR)",
+      "git_branch": "feature/dsp-filter",
+      "commit_sha": "da4703b4"
+    },
+    "EI038": {
+      "student_id": "EI038",
+      "name": "学生_38",
+      "group_id": "Group_08",
+      "role_name": "无线通信工程师 (协议/CRC/ARQ)",
+      "git_branch": "feature/rf-comm",
+      "commit_sha": "9f344008"
+    },
+    "EI039": {
+      "student_id": "EI039",
+      "name": "学生_39",
+      "group_id": "Group_08",
+      "role_name": "系统架构工程师 (内存/低功耗/FreeRTOS)",
+      "git_branch": "feature/sys-deploy",
+      "commit_sha": "fc781d2d"
+    },
+    "EI040": {
+      "student_id": "EI040",
+      "name": "学生_40",
+      "group_id": "Group_08",
+      "role_name": "质量测试工程师 (CI/CD自动化测试)",
+      "git_branch": "feature/qa-test",
+      "commit_sha": "613c5e48"
+    },
+    "EI041": {
+      "student_id": "EI041",
+      "name": "学生_41",
+      "group_id": "Group_09",
+      "role_name": "信号链与驱动工程师 (ADC/DMA)",
+      "git_branch": "feature/adc-driver",
+      "commit_sha": "214314ec"
+    },
+    "EI042": {
+      "student_id": "EI042",
+      "name": "学生_42",
+      "group_id": "Group_09",
+      "role_name": "实时算法工程师 (定点DSP/IIR)",
+      "git_branch": "feature/dsp-filter",
+      "commit_sha": "c858e049"
+    },
+    "EI043": {
+      "student_id": "EI043",
+      "name": "学生_43",
+      "group_id": "Group_09",
+      "role_name": "无线通信工程师 (协议/CRC/ARQ)",
+      "git_branch": "feature/rf-comm",
+      "commit_sha": "bd3eee7e"
+    },
+    "EI044": {
+      "student_id": "EI044",
+      "name": "学生_44",
+      "group_id": "Group_09",
+      "role_name": "系统架构工程师 (内存/低功耗/FreeRTOS)",
+      "git_branch": "feature/sys-deploy",
+      "commit_sha": "596a6bfb"
+    },
+    "EI045": {
+      "student_id": "EI045",
+      "name": "学生_45",
+      "group_id": "Group_09",
+      "role_name": "质量测试工程师 (CI/CD自动化测试)",
+      "git_branch": "feature/qa-test",
+      "commit_sha": "2302703f"
+    },
+    "EI046": {
+      "student_id": "EI046",
+      "name": "学生_46",
+      "group_id": "Group_10",
+      "role_name": "信号链与驱动工程师 (ADC/DMA)",
+      "git_branch": "feature/adc-driver",
+      "commit_sha": "c9dba956"
+    },
+    "EI047": {
+      "student_id": "EI047",
+      "name": "学生_47",
+      "group_id": "Group_10",
+      "role_name": "实时算法工程师 (定点DSP/IIR)",
+      "git_branch": "feature/dsp-filter",
+      "commit_sha": "dbf436af"
+    },
+    "EI048": {
+      "student_id": "EI048",
+      "name": "学生_48",
+      "group_id": "Group_10",
+      "role_name": "无线通信工程师 (协议/CRC/ARQ)",
+      "git_branch": "feature/rf-comm",
+      "commit_sha": "2dc67491"
+    },
+    "EI049": {
+      "student_id": "EI049",
+      "name": "学生_49",
+      "group_id": "Group_10",
+      "role_name": "系统架构工程师 (内存/低功耗/FreeRTOS)",
+      "git_branch": "feature/sys-deploy",
+      "commit_sha": "9658e826"
+    },
+    "EI050": {
+      "student_id": "EI050",
+      "name": "学生_50",
+      "group_id": "Group_10",
+      "role_name": "质量测试工程师 (CI/CD自动化测试)",
+      "git_branch": "feature/qa-test",
+      "commit_sha": "fcf2fee8"
+    },
+    "EI051": {
+      "student_id": "EI051",
+      "name": "学生_51",
+      "group_id": "Group_11",
+      "role_name": "信号链与驱动工程师 (ADC/DMA)",
+      "git_branch": "feature/adc-driver",
+      "commit_sha": "ca6865a6"
+    },
+    "EI052": {
+      "student_id": "EI052",
+      "name": "学生_52",
+      "group_id": "Group_11",
+      "role_name": "实时算法工程师 (定点DSP/IIR)",
+      "git_branch": "feature/dsp-filter",
+      "commit_sha": "aa780597"
+    },
+    "EI053": {
+      "student_id": "EI053",
+      "name": "学生_53",
+      "group_id": "Group_11",
+      "role_name": "无线通信工程师 (协议/CRC/ARQ)",
+      "git_branch": "feature/rf-comm",
+      "commit_sha": "64ead331"
+    },
+    "EI054": {
+      "student_id": "EI054",
+      "name": "学生_54",
+      "group_id": "Group_11",
+      "role_name": "系统架构工程师 (内存/低功耗/FreeRTOS)",
+      "git_branch": "feature/sys-deploy",
+      "commit_sha": "4ad05851"
+    },
+    "EI055": {
+      "student_id": "EI055",
+      "name": "学生_55",
+      "group_id": "Group_11",
+      "role_name": "质量测试工程师 (CI/CD自动化测试)",
+      "git_branch": "feature/qa-test",
+      "commit_sha": "7a94a9f8"
+    },
+    "EI056": {
+      "student_id": "EI056",
+      "name": "学生_56",
+      "group_id": "Group_12",
+      "role_name": "信号链与驱动工程师 (ADC/DMA)",
+      "git_branch": "feature/adc-driver",
+      "commit_sha": "ad8a9302"
+    },
+    "EI057": {
+      "student_id": "EI057",
+      "name": "学生_57",
+      "group_id": "Group_12",
+      "role_name": "实时算法工程师 (定点DSP/IIR)",
+      "git_branch": "feature/dsp-filter",
+      "commit_sha": "f149e13c"
+    },
+    "EI058": {
+      "student_id": "EI058",
+      "name": "学生_58",
+      "group_id": "Group_12",
+      "role_name": "无线通信工程师 (协议/CRC/ARQ)",
+      "git_branch": "feature/rf-comm",
+      "commit_sha": "7fadd3c8"
+    },
+    "EI059": {
+      "student_id": "EI059",
+      "name": "学生_59",
+      "group_id": "Group_12",
+      "role_name": "系统架构工程师 (内存/低功耗/FreeRTOS)",
+      "git_branch": "feature/sys-deploy",
+      "commit_sha": "6ffb8c6e"
+    },
+    "EI060": {
+      "student_id": "EI060",
+      "name": "学生_60",
+      "group_id": "Group_12",
+      "role_name": "质量测试工程师 (CI/CD自动化测试)",
+      "git_branch": "feature/qa-test",
+      "commit_sha": "4bf04615"
+    },
+    "EI061": {
+      "student_id": "EI061",
+      "name": "学生_61",
+      "group_id": "Group_13",
+      "role_name": "信号链与驱动工程师 (ADC/DMA)",
+      "git_branch": "feature/adc-driver",
+      "commit_sha": "cf857e92"
+    },
+    "EI062": {
+      "student_id": "EI062",
+      "name": "学生_62",
+      "group_id": "Group_13",
+      "role_name": "实时算法工程师 (定点DSP/IIR)",
+      "git_branch": "feature/dsp-filter",
+      "commit_sha": "6c3dff1c"
+    },
+    "EI063": {
+      "student_id": "EI063",
+      "name": "学生_63",
+      "group_id": "Group_13",
+      "role_name": "无线通信工程师 (协议/CRC/ARQ)",
+      "git_branch": "feature/rf-comm",
+      "commit_sha": "9219502c"
+    },
+    "EI064": {
+      "student_id": "EI064",
+      "name": "学生_64",
+      "group_id": "Group_13",
+      "role_name": "系统架构工程师 (内存/低功耗/FreeRTOS)",
+      "git_branch": "feature/sys-deploy",
+      "commit_sha": "53e479de"
+    },
+    "EI065": {
+      "student_id": "EI065",
+      "name": "学生_65",
+      "group_id": "Group_13",
+      "role_name": "质量测试工程师 (CI/CD自动化测试)",
+      "git_branch": "feature/qa-test",
+      "commit_sha": "4acdba1c"
+    },
+    "EI066": {
+      "student_id": "EI066",
+      "name": "学生_66",
+      "group_id": "Group_14",
+      "role_name": "信号链与驱动工程师 (ADC/DMA)",
+      "git_branch": "feature/adc-driver",
+      "commit_sha": "a8c44b8c"
+    },
+    "EI067": {
+      "student_id": "EI067",
+      "name": "学生_67",
+      "group_id": "Group_14",
+      "role_name": "实时算法工程师 (定点DSP/IIR)",
+      "git_branch": "feature/dsp-filter",
+      "commit_sha": "6d8110a3"
+    },
+    "EI068": {
+      "student_id": "EI068",
+      "name": "学生_68",
+      "group_id": "Group_14",
+      "role_name": "无线通信工程师 (协议/CRC/ARQ)",
+      "git_branch": "feature/rf-comm",
+      "commit_sha": "ad4b0e25"
+    },
+    "EI069": {
+      "student_id": "EI069",
+      "name": "学生_69",
+      "group_id": "Group_14",
+      "role_name": "系统架构工程师 (内存/低功耗/FreeRTOS)",
+      "git_branch": "feature/sys-deploy",
+      "commit_sha": "f4d61e71"
+    },
+    "EI070": {
+      "student_id": "EI070",
+      "name": "学生_70",
+      "group_id": "Group_14",
+      "role_name": "质量测试工程师 (CI/CD自动化测试)",
+      "git_branch": "feature/qa-test",
+      "commit_sha": "bb463981"
+    },
+    "EI071": {
+      "student_id": "EI071",
+      "name": "学生_71",
+      "group_id": "Group_15",
+      "role_name": "信号链与驱动工程师 (ADC/DMA)",
+      "git_branch": "feature/adc-driver",
+      "commit_sha": "910aa81f"
+    },
+    "EI072": {
+      "student_id": "EI072",
+      "name": "学生_72",
+      "group_id": "Group_15",
+      "role_name": "实时算法工程师 (定点DSP/IIR)",
+      "git_branch": "feature/dsp-filter",
+      "commit_sha": "290a7256"
+    },
+    "EI073": {
+      "student_id": "EI073",
+      "name": "学生_73",
+      "group_id": "Group_15",
+      "role_name": "无线通信工程师 (协议/CRC/ARQ)",
+      "git_branch": "feature/rf-comm",
+      "commit_sha": "c6cd99b2"
+    },
+    "EI074": {
+      "student_id": "EI074",
+      "name": "学生_74",
+      "group_id": "Group_15",
+      "role_name": "系统架构工程师 (内存/低功耗/FreeRTOS)",
+      "git_branch": "feature/sys-deploy",
+      "commit_sha": "4c263085"
+    },
+    "EI075": {
+      "student_id": "EI075",
+      "name": "学生_75",
+      "group_id": "Group_15",
+      "role_name": "质量测试工程师 (CI/CD自动化测试)",
+      "git_branch": "feature/qa-test",
+      "commit_sha": "9f2980f9"
+    },
+    "EI076": {
+      "student_id": "EI076",
+      "name": "学生_76",
+      "group_id": "Group_16",
+      "role_name": "信号链与驱动工程师 (ADC/DMA)",
+      "git_branch": "feature/adc-driver",
+      "commit_sha": "386bcf0a"
+    },
+    "EI077": {
+      "student_id": "EI077",
+      "name": "学生_77",
+      "group_id": "Group_16",
+      "role_name": "实时算法工程师 (定点DSP/IIR)",
+      "git_branch": "feature/dsp-filter",
+      "commit_sha": "5c50a832"
+    },
+    "EI078": {
+      "student_id": "EI078",
+      "name": "学生_78",
+      "group_id": "Group_16",
+      "role_name": "无线通信工程师 (协议/CRC/ARQ)",
+      "git_branch": "feature/rf-comm",
+      "commit_sha": "27fa3258"
+    },
+    "EI079": {
+      "student_id": "EI079",
+      "name": "学生_79",
+      "group_id": "Group_16",
+      "role_name": "系统架构工程师 (内存/低功耗/FreeRTOS)",
+      "git_branch": "feature/sys-deploy",
+      "commit_sha": "fa4252d9"
+    },
+    "EI080": {
+      "student_id": "EI080",
+      "name": "学生_80",
+      "group_id": "Group_16",
+      "role_name": "质量测试工程师 (CI/CD自动化测试)",
+      "git_branch": "feature/qa-test",
+      "commit_sha": "c65c009b"
+    },
+    "EI081": {
+      "student_id": "EI081",
+      "name": "学生_81",
+      "group_id": "Group_17",
+      "role_name": "信号链与驱动工程师 (ADC/DMA)",
+      "git_branch": "feature/adc-driver",
+      "commit_sha": "91e8b0ae"
+    },
+    "EI082": {
+      "student_id": "EI082",
+      "name": "学生_82",
+      "group_id": "Group_17",
+      "role_name": "实时算法工程师 (定点DSP/IIR)",
+      "git_branch": "feature/dsp-filter",
+      "commit_sha": "5fa55d03"
+    },
+    "EI083": {
+      "student_id": "EI083",
+      "name": "学生_83",
+      "group_id": "Group_17",
+      "role_name": "无线通信工程师 (协议/CRC/ARQ)",
+      "git_branch": "feature/rf-comm",
+      "commit_sha": "5630d88c"
+    },
+    "EI084": {
+      "student_id": "EI084",
+      "name": "学生_84",
+      "group_id": "Group_17",
+      "role_name": "系统架构工程师 (内存/低功耗/FreeRTOS)",
+      "git_branch": "feature/sys-deploy",
+      "commit_sha": "5370cc70"
+    },
+    "EI085": {
+      "student_id": "EI085",
+      "name": "学生_85",
+      "group_id": "Group_17",
+      "role_name": "质量测试工程师 (CI/CD自动化测试)",
+      "git_branch": "feature/qa-test",
+      "commit_sha": "9befde43"
+    },
+    "EI086": {
+      "student_id": "EI086",
+      "name": "学生_86",
+      "group_id": "Group_18",
+      "role_name": "信号链与驱动工程师 (ADC/DMA)",
+      "git_branch": "feature/adc-driver",
+      "commit_sha": "a9fe7ff9"
+    },
+    "EI087": {
+      "student_id": "EI087",
+      "name": "学生_87",
+      "group_id": "Group_18",
+      "role_name": "实时算法工程师 (定点DSP/IIR)",
+      "git_branch": "feature/dsp-filter",
+      "commit_sha": "69d01d90"
+    },
+    "EI088": {
+      "student_id": "EI088",
+      "name": "学生_88",
+      "group_id": "Group_18",
+      "role_name": "无线通信工程师 (协议/CRC/ARQ)",
+      "git_branch": "feature/rf-comm",
+      "commit_sha": "b4898b4b"
+    },
+    "EI089": {
+      "student_id": "EI089",
+      "name": "学生_89",
+      "group_id": "Group_18",
+      "role_name": "系统架构工程师 (内存/低功耗/FreeRTOS)",
+      "git_branch": "feature/sys-deploy",
+      "commit_sha": "e3def7f3"
+    },
+    "EI090": {
+      "student_id": "EI090",
+      "name": "学生_90",
+      "group_id": "Group_18",
+      "role_name": "质量测试工程师 (CI/CD自动化测试)",
+      "git_branch": "feature/qa-test",
+      "commit_sha": "539a876a"
+    },
+    "EI091": {
+      "student_id": "EI091",
+      "name": "学生_91",
+      "group_id": "Group_19",
+      "role_name": "信号链与驱动工程师 (ADC/DMA)",
+      "git_branch": "feature/adc-driver",
+      "commit_sha": "ff59f929"
+    },
+    "EI092": {
+      "student_id": "EI092",
+      "name": "学生_92",
+      "group_id": "Group_19",
+      "role_name": "实时算法工程师 (定点DSP/IIR)",
+      "git_branch": "feature/dsp-filter",
+      "commit_sha": "41f25c34"
+    },
+    "EI093": {
+      "student_id": "EI093",
+      "name": "学生_93",
+      "group_id": "Group_19",
+      "role_name": "无线通信工程师 (协议/CRC/ARQ)",
+      "git_branch": "feature/rf-comm",
+      "commit_sha": "6be0f056"
+    },
+    "EI094": {
+      "student_id": "EI094",
+      "name": "学生_94",
+      "group_id": "Group_19",
+      "role_name": "系统架构工程师 (内存/低功耗/FreeRTOS)",
+      "git_branch": "feature/sys-deploy",
+      "commit_sha": "e0e9f47e"
+    },
+    "EI095": {
+      "student_id": "EI095",
+      "name": "学生_95",
+      "group_id": "Group_19",
+      "role_name": "质量测试工程师 (CI/CD自动化测试)",
+      "git_branch": "feature/qa-test",
+      "commit_sha": "9b9c08f1"
+    }
+  },
+  "records": {
+    "EI032": {
+      "student_id": "EI032",
+      "t_score": 89.0,
+      "p_score": 84.0,
+      "v_i_score": 52.0,
+      "v_ai_score": 65.0,
+      "d_diff": 37.0,
+      "r_flag": 1,
+      "is_random_sample": false,
+      "needs_review": true,
+      "flag_reason": "表现倒挂高疑(T=89优秀, V-I=52未达标, 偏离度D=37)",
+      "review_status": "AGREED",
+      "variant_task_assigned": true,
+      "retest_passed": true,
+      "clo_scores": {
+        "CT1": 69.5,
+        "CT2": 79.1,
+        "CT3": 77.9,
+        "CT4": 73.1
+      }
+    },
+    "EI047": {
+      "student_id": "EI047",
+      "t_score": 87.0,
+      "p_score": 81.0,
+      "v_i_score": 55.0,
+      "v_ai_score": 68.0,
+      "d_diff": 32.0,
+      "r_flag": 1,
+      "is_random_sample": false,
+      "needs_review": true,
+      "flag_reason": "表现倒挂高疑(T=87优秀, V-I=55未达标, 偏离度D=32)",
+      "review_status": "AGREED",
+      "variant_task_assigned": true,
+      "retest_passed": true,
+      "clo_scores": {
+        "CT1": 69.8,
+        "CT2": 77.6,
+        "CT3": 77.4,
+        "CT4": 73.8
+      }
+    },
+    "EI061": {
+      "student_id": "EI061",
+      "t_score": 91.0,
+      "p_score": 88.0,
+      "v_i_score": 58.0,
+      "v_ai_score": 62.0,
+      "d_diff": 33.0,
+      "r_flag": 1,
+      "is_random_sample": false,
+      "needs_review": true,
+      "flag_reason": "表现倒挂高疑(T=91优秀, V-I=58未达标, 偏离度D=33)",
+      "review_status": "AGREED",
+      "variant_task_assigned": true,
+      "retest_passed": true,
+      "clo_scores": {
+        "CT1": 73.9,
+        "CT2": 82.9,
+        "CT3": 81.1,
+        "CT4": 72.7
+      }
+    },
+    "EI014": {
+      "student_id": "EI014",
+      "t_score": 88.0,
+      "p_score": 82.0,
+      "v_i_score": 54.0,
+      "v_ai_score": 60.0,
+      "d_diff": 34.0,
+      "r_flag": 1,
+      "is_random_sample": false,
+      "needs_review": true,
+      "flag_reason": "表现倒挂高疑(T=88优秀, V-I=54未达标, 偏离度D=34)",
+      "review_status": "AGREED",
+      "variant_task_assigned": true,
+      "retest_passed": true,
+      "clo_scores": {
+        "CT1": 69.8,
+        "CT2": 78.2,
+        "CT3": 77.8,
+        "CT4": 69.4
+      }
+    },
+    "EI022": {
+      "student_id": "EI022",
+      "t_score": 86.0,
+      "p_score": 79.0,
+      "v_i_score": 57.0,
+      "v_ai_score": 64.0,
+      "d_diff": 29.0,
+      "r_flag": 1,
+      "is_random_sample": false,
+      "needs_review": true,
+      "flag_reason": "表现倒挂高疑(T=86优秀, V-I=57未达标, 偏离度D=29)",
+      "review_status": "AGREED",
+      "variant_task_assigned": true,
+      "retest_passed": true,
+      "clo_scores": {
+        "CT1": 70.1,
+        "CT2": 76.7,
+        "CT3": 77.3,
+        "CT4": 70.7
+      }
+    },
+    "EI039": {
+      "student_id": "EI039",
+      "t_score": 90.0,
+      "p_score": 85.0,
+      "v_i_score": 56.0,
+      "v_ai_score": 63.0,
+      "d_diff": 34.0,
+      "r_flag": 1,
+      "is_random_sample": false,
+      "needs_review": true,
+      "flag_reason": "表现倒挂高疑(T=90优秀, V-I=56未达标, 偏离度D=34)",
+      "review_status": "AGREED",
+      "variant_task_assigned": true,
+      "retest_passed": true,
+      "clo_scores": {
+        "CT1": 72.0,
+        "CT2": 80.7,
+        "CT3": 79.8,
+        "CT4": 72.3
+      }
+    },
+    "EI053": {
+      "student_id": "EI053",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 51.0,
+      "v_ai_score": 66.0,
+      "d_diff": 34.0,
+      "r_flag": 1,
+      "is_random_sample": false,
+      "needs_review": true,
+      "flag_reason": "表现倒挂高疑(T=85优秀, V-I=51未达标, 偏离度D=34)",
+      "review_status": "AGREED",
+      "variant_task_assigned": true,
+      "retest_passed": true,
+      "clo_scores": {
+        "CT1": 67.0,
+        "CT2": 75.7,
+        "CT3": 74.8,
+        "CT4": 72.1
+      }
+    },
+    "EI067": {
+      "student_id": "EI067",
+      "t_score": 88.0,
+      "p_score": 83.0,
+      "v_i_score": 59.0,
+      "v_ai_score": 61.0,
+      "d_diff": 29.0,
+      "r_flag": 1,
+      "is_random_sample": false,
+      "needs_review": true,
+      "flag_reason": "表现倒挂高疑(T=88优秀, V-I=59未达标, 偏离度D=29)",
+      "review_status": "AGREED",
+      "variant_task_assigned": true,
+      "retest_passed": true,
+      "clo_scores": {
+        "CT1": 72.5,
+        "CT2": 79.7,
+        "CT3": 79.3,
+        "CT4": 70.3
+      }
+    },
+    "EI074": {
+      "student_id": "EI074",
+      "t_score": 86.0,
+      "p_score": 81.0,
+      "v_i_score": 53.0,
+      "v_ai_score": 67.0,
+      "d_diff": 33.0,
+      "r_flag": 1,
+      "is_random_sample": false,
+      "needs_review": true,
+      "flag_reason": "表现倒挂高疑(T=86优秀, V-I=53未达标, 偏离度D=33)",
+      "review_status": "AGREED",
+      "variant_task_assigned": true,
+      "retest_passed": true,
+      "clo_scores": {
+        "CT1": 68.5,
+        "CT2": 76.9,
+        "CT3": 76.1,
+        "CT4": 73.1
+      }
+    },
+    "EI081": {
+      "student_id": "EI081",
+      "t_score": 89.0,
+      "p_score": 84.0,
+      "v_i_score": 58.0,
+      "v_ai_score": 62.0,
+      "d_diff": 31.0,
+      "r_flag": 1,
+      "is_random_sample": false,
+      "needs_review": true,
+      "flag_reason": "表现倒挂高疑(T=89优秀, V-I=58未达标, 偏离度D=31)",
+      "review_status": "AGREED",
+      "variant_task_assigned": true,
+      "retest_passed": true,
+      "clo_scores": {
+        "CT1": 72.5,
+        "CT2": 80.3,
+        "CT3": 79.7,
+        "CT4": 71.3
+      }
+    },
+    "EI086": {
+      "student_id": "EI086",
+      "t_score": 87.0,
+      "p_score": 82.0,
+      "v_i_score": 52.0,
+      "v_ai_score": 65.0,
+      "d_diff": 35.0,
+      "r_flag": 1,
+      "is_random_sample": false,
+      "needs_review": true,
+      "flag_reason": "表现倒挂高疑(T=87优秀, V-I=52未达标, 偏离度D=35)",
+      "review_status": "AGREED",
+      "variant_task_assigned": true,
+      "retest_passed": true,
+      "clo_scores": {
+        "CT1": 68.5,
+        "CT2": 77.5,
+        "CT3": 76.5,
+        "CT4": 72.3
+      }
+    },
+    "EI090": {
+      "student_id": "EI090",
+      "t_score": 92.0,
+      "p_score": 89.0,
+      "v_i_score": 57.0,
+      "v_ai_score": 60.0,
+      "d_diff": 35.0,
+      "r_flag": 1,
+      "is_random_sample": false,
+      "needs_review": true,
+      "flag_reason": "表现倒挂高疑(T=92优秀, V-I=57未达标, 偏离度D=35)",
+      "review_status": "AGREED",
+      "variant_task_assigned": true,
+      "retest_passed": true,
+      "clo_scores": {
+        "CT1": 73.9,
+        "CT2": 83.5,
+        "CT3": 81.5,
+        "CT4": 71.9
+      }
+    },
+    "EI093": {
+      "student_id": "EI093",
+      "t_score": 86.0,
+      "p_score": 80.0,
+      "v_i_score": 55.0,
+      "v_ai_score": 64.0,
+      "d_diff": 31.0,
+      "r_flag": 1,
+      "is_random_sample": false,
+      "needs_review": true,
+      "flag_reason": "表现倒挂高疑(T=86优秀, V-I=55未达标, 偏离度D=31)",
+      "review_status": "AGREED",
+      "variant_task_assigned": true,
+      "retest_passed": false,
+      "clo_scores": {
+        "CT1": 69.3,
+        "CT2": 76.8,
+        "CT3": 76.7,
+        "CT4": 71.0
+      }
+    },
+    "EI095": {
+      "student_id": "EI095",
+      "t_score": 88.0,
+      "p_score": 83.0,
+      "v_i_score": 50.0,
+      "v_ai_score": 63.0,
+      "d_diff": 38.0,
+      "r_flag": 1,
+      "is_random_sample": false,
+      "needs_review": true,
+      "flag_reason": "表现倒挂高疑(T=88优秀, V-I=50未达标, 偏离度D=38)",
+      "review_status": "AGREED",
+      "variant_task_assigned": true,
+      "retest_passed": false,
+      "clo_scores": {
+        "CT1": 68.0,
+        "CT2": 77.9,
+        "CT3": 76.6,
+        "CT4": 71.5
+      }
+    },
+    "EI008": {
+      "student_id": "EI008",
+      "t_score": 83.0,
+      "p_score": 82.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 76.0,
+      "d_diff": 5.0,
+      "r_flag": 0,
+      "is_random_sample": true,
+      "needs_review": true,
+      "flag_reason": "常规质量随机抽检(固定比例抽样)",
+      "review_status": "PASSED_WITHOUT_ACTION",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.3,
+        "CT2": 81.5,
+        "CT3": 81.5,
+        "CT4": 78.5
+      }
+    },
+    "EI019": {
+      "student_id": "EI019",
+      "t_score": 83.0,
+      "p_score": 82.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 76.0,
+      "d_diff": 5.0,
+      "r_flag": 0,
+      "is_random_sample": true,
+      "needs_review": true,
+      "flag_reason": "常规质量随机抽检(固定比例抽样)",
+      "review_status": "AGREED",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.3,
+        "CT2": 81.5,
+        "CT3": 81.5,
+        "CT4": 78.5
+      }
+    },
+    "EI025": {
+      "student_id": "EI025",
+      "t_score": 83.0,
+      "p_score": 82.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 76.0,
+      "d_diff": 5.0,
+      "r_flag": 0,
+      "is_random_sample": true,
+      "needs_review": true,
+      "flag_reason": "常规质量随机抽检(固定比例抽样)",
+      "review_status": "AGREED",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.3,
+        "CT2": 81.5,
+        "CT3": 81.5,
+        "CT4": 78.5
+      }
+    },
+    "EI042": {
+      "student_id": "EI042",
+      "t_score": 83.0,
+      "p_score": 82.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 76.0,
+      "d_diff": 5.0,
+      "r_flag": 0,
+      "is_random_sample": true,
+      "needs_review": true,
+      "flag_reason": "常规质量随机抽检(固定比例抽样)",
+      "review_status": "AGREED",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.3,
+        "CT2": 81.5,
+        "CT3": 81.5,
+        "CT4": 78.5
+      }
+    },
+    "EI055": {
+      "student_id": "EI055",
+      "t_score": 83.0,
+      "p_score": 82.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 76.0,
+      "d_diff": 5.0,
+      "r_flag": 0,
+      "is_random_sample": true,
+      "needs_review": true,
+      "flag_reason": "常规质量随机抽检(固定比例抽样)",
+      "review_status": "AGREED",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.3,
+        "CT2": 81.5,
+        "CT3": 81.5,
+        "CT4": 78.5
+      }
+    },
+    "EI068": {
+      "student_id": "EI068",
+      "t_score": 83.0,
+      "p_score": 82.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 76.0,
+      "d_diff": 5.0,
+      "r_flag": 0,
+      "is_random_sample": true,
+      "needs_review": true,
+      "flag_reason": "常规质量随机抽检(固定比例抽样)",
+      "review_status": "AGREED",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.3,
+        "CT2": 81.5,
+        "CT3": 81.5,
+        "CT4": 78.5
+      }
+    },
+    "EI077": {
+      "student_id": "EI077",
+      "t_score": 83.0,
+      "p_score": 82.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 76.0,
+      "d_diff": 5.0,
+      "r_flag": 0,
+      "is_random_sample": true,
+      "needs_review": true,
+      "flag_reason": "常规质量随机抽检(固定比例抽样)",
+      "review_status": "AGREED",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.3,
+        "CT2": 81.5,
+        "CT3": 81.5,
+        "CT4": 78.5
+      }
+    },
+    "EI089": {
+      "student_id": "EI089",
+      "t_score": 83.0,
+      "p_score": 82.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 76.0,
+      "d_diff": 5.0,
+      "r_flag": 0,
+      "is_random_sample": true,
+      "needs_review": true,
+      "flag_reason": "常规质量随机抽检(固定比例抽样)",
+      "review_status": "AGREED",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.3,
+        "CT2": 81.5,
+        "CT3": 81.5,
+        "CT4": 78.5
+      }
+    },
+    "EI001": {
+      "student_id": "EI001",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI002": {
+      "student_id": "EI002",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI003": {
+      "student_id": "EI003",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI004": {
+      "student_id": "EI004",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI005": {
+      "student_id": "EI005",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI006": {
+      "student_id": "EI006",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI007": {
+      "student_id": "EI007",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI009": {
+      "student_id": "EI009",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI010": {
+      "student_id": "EI010",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI011": {
+      "student_id": "EI011",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI012": {
+      "student_id": "EI012",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI013": {
+      "student_id": "EI013",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI015": {
+      "student_id": "EI015",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI016": {
+      "student_id": "EI016",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI017": {
+      "student_id": "EI017",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI018": {
+      "student_id": "EI018",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI020": {
+      "student_id": "EI020",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI021": {
+      "student_id": "EI021",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI023": {
+      "student_id": "EI023",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI024": {
+      "student_id": "EI024",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI026": {
+      "student_id": "EI026",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI027": {
+      "student_id": "EI027",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI028": {
+      "student_id": "EI028",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI029": {
+      "student_id": "EI029",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI030": {
+      "student_id": "EI030",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI031": {
+      "student_id": "EI031",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI033": {
+      "student_id": "EI033",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI034": {
+      "student_id": "EI034",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI035": {
+      "student_id": "EI035",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI036": {
+      "student_id": "EI036",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI037": {
+      "student_id": "EI037",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI038": {
+      "student_id": "EI038",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI040": {
+      "student_id": "EI040",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI041": {
+      "student_id": "EI041",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI043": {
+      "student_id": "EI043",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI044": {
+      "student_id": "EI044",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI045": {
+      "student_id": "EI045",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI046": {
+      "student_id": "EI046",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI048": {
+      "student_id": "EI048",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI049": {
+      "student_id": "EI049",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI050": {
+      "student_id": "EI050",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI051": {
+      "student_id": "EI051",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI052": {
+      "student_id": "EI052",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI054": {
+      "student_id": "EI054",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI056": {
+      "student_id": "EI056",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI057": {
+      "student_id": "EI057",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI058": {
+      "student_id": "EI058",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI059": {
+      "student_id": "EI059",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI060": {
+      "student_id": "EI060",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI062": {
+      "student_id": "EI062",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI063": {
+      "student_id": "EI063",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI064": {
+      "student_id": "EI064",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI065": {
+      "student_id": "EI065",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI066": {
+      "student_id": "EI066",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI069": {
+      "student_id": "EI069",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI070": {
+      "student_id": "EI070",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI071": {
+      "student_id": "EI071",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI072": {
+      "student_id": "EI072",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI073": {
+      "student_id": "EI073",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI075": {
+      "student_id": "EI075",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI076": {
+      "student_id": "EI076",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI078": {
+      "student_id": "EI078",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI079": {
+      "student_id": "EI079",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI080": {
+      "student_id": "EI080",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI082": {
+      "student_id": "EI082",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI083": {
+      "student_id": "EI083",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI084": {
+      "student_id": "EI084",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI085": {
+      "student_id": "EI085",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI087": {
+      "student_id": "EI087",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI088": {
+      "student_id": "EI088",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI091": {
+      "student_id": "EI091",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI092": {
+      "student_id": "EI092",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    },
+    "EI094": {
+      "student_id": "EI094",
+      "t_score": 85.0,
+      "p_score": 80.0,
+      "v_i_score": 78.0,
+      "v_ai_score": 75.0,
+      "d_diff": 7.0,
+      "r_flag": 0,
+      "is_random_sample": false,
+      "needs_review": false,
+      "flag_reason": "各项指标正常，证据链自洽",
+      "review_status": "PENDING",
+      "variant_task_assigned": false,
+      "retest_passed": null,
+      "clo_scores": {
+        "CT1": 80.5,
+        "CT2": 81.1,
+        "CT3": 82.9,
+        "CT4": 77.5
+      }
+    }
+  },
+  "clos": {
+    "CT1": {
+      "clo_id": "CT1",
+      "name": "故障分析与定位能力",
+      "weight": 0.25,
+      "target_threshold": 0.7,
+      "actual_attainment": 0.82
+    },
+    "CT2": {
+      "clo_id": "CT2",
+      "name": "方案多维权衡能力",
+      "weight": 0.25,
+      "target_threshold": 0.7,
+      "actual_attainment": 0.79
+    },
+    "CT3": {
+      "clo_id": "CT3",
+      "name": "测试用例与系统验证能力",
+      "weight": 0.25,
+      "target_threshold": 0.7,
+      "actual_attainment": 0.84
+    },
+    "CT4": {
+      "clo_id": "CT4",
+      "name": "AIGC批判性工程判断力",
+      "weight": 0.25,
+      "target_threshold": 0.7,
+      "actual_attainment": 0.76
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "mcu_model": "STM32F407ZGT6",
+  "flash_capacity_bytes": 1048576,
+  "sram_capacity_bytes": 196608,
+  "memory_segments": {
+    "Code": 248920,
+    "RO_Data": 42104,
+    "RW_Data": 3280,
+    "ZI_Data": 82540
+  },
+  "total_flash_used_bytes": 291024,
+  "total_flash_used_percent": 27.75,
+  "total_sram_used_bytes": 85820,
+  "total_sram_used_percent": 43.65,
+  "stack_size_bytes": 4096,
+  "heap_size_bytes": 8192,
+  "is_memory_safe": true
+}

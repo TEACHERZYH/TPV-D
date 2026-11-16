@@ -1,0 +1,159 @@
+{% extends "base.html" %}
+
+{% block title %}差异复核与仲裁详情 - {{ student.name }} ({{ student.student_id }}){% endblock %}
+
+{% block content %}
+<div class="mb-3">
+    <a href="/teacher" class="btn btn-outline-secondary btn-sm mb-2"><i class="bi bi-arrow-left me-1"></i>返回复核名单</a>
+    <h4 class="fw-bold"><i class="bi bi-shield-exclamation text-danger me-2"></i>差异复核与人机仲裁详情</h4>
+</div>
+
+<div class="row g-4">
+    <!-- 左侧：多源证据与差异对标 -->
+    <div class="col-lg-7">
+        <div class="card card-custom mb-4">
+            <div class="card-header bg-white py-3 fw-bold">
+                <i class="bi bi-bar-chart-steps text-primary me-2"></i>核心评价表现对标与倒挂判定 (式 3)
+            </div>
+            <div class="card-body">
+                <div class="row text-center mb-3">
+                    <div class="col-4">
+                        <div class="border rounded p-2 bg-success bg-opacity-10 border-success">
+                            <div class="small text-muted">T 任务达成得分</div>
+                            <div class="fs-3 fw-bold text-success">{{ record.t_score|int }}</div>
+                            <div class="small text-success">已达优秀线 (≥85)</div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="border rounded p-2 bg-danger bg-opacity-10 border-danger">
+                            <div class="small text-muted">V-I 独立考核得分</div>
+                            <div class="fs-3 fw-bold text-danger">{{ record.v_i_score|int }}</div>
+                            <div class="small text-danger">未达合格线 (&lt;60)</div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="border rounded p-2 bg-warning bg-opacity-10 border-warning">
+                            <div class="small text-muted">偏离度 Di (T - V_I)</div>
+                            <div class="fs-3 fw-bold text-dark">+{{ record.d_diff|int }}</div>
+                            <div class="small text-dark">触发倒挂预警</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="alert alert-danger mb-0 small">
+                    <strong><i class="bi bi-exclamation-triangle-fill me-1"></i>系统初判诊断结论：</strong>
+                    该生负责模块工程任务得分极高（{{ record.t_score|int }}分），但在物理隔离环境下的独立代码实操考核中未能及格（{{ record.v_i_score|int }}分），存在显著“团队成果遮蔽”或“过度依赖AI代码生成”高疑风险，建议教师深入核对代码提交版本历史与设计权衡表。
+                </div>
+            </div>
+        </div>
+
+        <!-- Git Commit 与代码审查仿真 -->
+        <div class="card card-custom">
+            <div class="card-header bg-white py-3 fw-bold d-flex justify-content-between align-items-center">
+                <span><i class="bi bi-git text-danger me-2"></i>代码仓库提交差异审查 (Git Diff)</span>
+                <code>branch: {{ student.git_branch }}</code>
+            </div>
+            <div class="card-body p-0">
+                <pre class="bg-dark text-light p-3 small mb-0" style="max-height: 280px; overflow-y: auto;">
+diff --git a/Drivers/adc_dma.c b/Drivers/adc_dma.c
+index 8e4b8a2..f91c320 100644
+--- a/Drivers/adc_dma.c
++++ b/Drivers/adc_dma.c
+@@ -42,6 +42,12 @@ void ADC_DMA_Config(void) {
++    // [审查重点]: AI 生成代码存在隐患，直接将时钟预分频置为 /2
++    // 导致 ADC 外设超频至 42MHz (芯片上限允许 36MHz)
++    ADC_CommonInitStructure.ADC_Prescaler = ADC_Prescaler_Div2;
++    ADC_CommonInit(&ADC_CommonInitStructure);
++    
+     DMA_InitStructure.DMA_BufferSize = 1024;
+-    DMA_InitStructure.DMA_Memory0BaseAddr = (uint32_t)Buffer_A;
++    DMA_DoubleBufferModeConfig(DMA2_Stream0, (uint32_t)Buffer_B, DMA_Memory_0);
+                </pre>
+            </div>
+        </div>
+    </div>
+
+    <!-- 右侧：设计决策表与教师仲裁动作面板 -->
+    <div class="col-lg-5">
+        <div class="card card-custom mb-4">
+            <div class="card-header bg-white py-3 fw-bold">
+                <i class="bi bi-file-earmark-ruled text-primary me-2"></i>结构化设计决策表审查 (P维度)
+            </div>
+            <div class="card-body small">
+                <div class="mb-2"><strong>决策主题：</strong> ADC采样时钟配置与抗混叠权衡</div>
+                <div class="mb-2"><strong>面临约束：</strong> 采样率必须恒定在 20 kHz，通带抖动 &lt; 3%</div>
+                <div class="mb-2"><strong>AI使用记录：</strong> 学生声称大模型推荐预分频 /2，但未进行逻辑分析仪实机脉冲测量</div>
+                <div class="mb-2"><strong>P维度量规评分：</strong> <span class="badge bg-warning text-dark">1 级 (合格) - 数据推演存在逻辑跳跃</span></div>
+            </div>
+        </div>
+
+        <div class="card card-custom border-primary">
+            <div class="card-header bg-primary text-white py-3 fw-bold">
+                <i class="bi bi-check2-square me-2"></i>教师专家人机仲裁操作
+            </div>
+            <div class="card-body">
+                <form id="reviewForm" onsubmit="submitVerdict(event)">
+                    <div class="mb-3">
+                        <label class="form-label small fw-bold">复核审查结论</label>
+                        <select class="form-select form-select-sm" id="reviewStatus">
+                            <option value="AGREED" selected>确认平台初判 (存在搭便车/AI盲从，需变式重测)</option>
+                            <option value="PASSED_WITHOUT_ACTION">否决初判 (现场答辩解释合理，直接放行)</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-3">
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" id="assignVariant" checked>
+                            <label class="form-check-label small fw-bold" for="assignVariant">自动派发同类异构变式考核任务</label>
+                        </div>
+                        <div class="text-muted small mt-1">系统将自动从题库抽取更换了故障注入位置与参数的同类试题</div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label small fw-bold">变式再次考核状态登记</label>
+                        <select class="form-select form-select-sm" id="retestStatus">
+                            <option value="true" {% if record.retest_passed %}selected{% endif %}>二次考核达标 (通过率统计，动态纠偏分数)</option>
+                            <option value="false" {% if record.retest_passed == false %}selected{% endif %}>二次考核仍未达标</option>
+                            <option value="none" {% if record.retest_passed == none %}selected{% endif %}>尚未重测 (等待提交)</option>
+                        </select>
+                    </div>
+
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary btn-sm">
+                            <i class="bi bi-save me-1"></i>提交仲裁结论并更新达成记录
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+function submitVerdict(e) {
+    e.preventDefault();
+    const status = document.getElementById('reviewStatus').value;
+    const assignVariant = document.getElementById('assignVariant').checked;
+    const retestVal = document.getElementById('retestStatus').value;
+    
+    let retest = null;
+    if (retestVal === 'true') retest = true;
+    else if (retestVal === 'false') retest = false;
+
+    fetch('/api/review/{{ student.student_id }}', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({
+            review_status: status,
+            variant_task_assigned: assignVariant,
+            retest_passed: retest
+        })
+    }).then(res => res.json()).then(data => {
+        alert('仲裁结论已成功提交，课程目标达成记录已同步闭环更新！');
+        window.location.reload();
+    });
+}
+</script>
+{% endblock %}

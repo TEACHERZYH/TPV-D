@@ -1,0 +1,85 @@
+{% extends "base.html" %}
+
+{% block title %}教师工作台 - TPV-D 实训达成评价与复核辅助系统{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <div>
+        <h4 class="fw-bold mb-1"><i class="bi bi-person-workspace text-primary me-2"></i>教师复核工作台</h4>
+        <p class="text-muted small mb-0">系统已完成自动成绩计算与版本一致性检查，按公式 (3) 自动标记优先复核样本并支持一键仲裁</p>
+    </div>
+    <div>
+        <span class="badge bg-danger fs-6 me-2">待复核队列: {{ review_queue|length }} 人</span>
+        <a href="/dashboard" class="btn btn-outline-secondary btn-sm">返回全景看板</a>
+    </div>
+</div>
+
+<div class="card card-custom">
+    <div class="card-header bg-white py-3">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <span class="fw-bold text-dark">优先复核名单（按偏离度 Di 降序编排）</span>
+            </div>
+            <div class="col-md-6 text-end">
+                <span class="badge badge-flagged me-2">倒挂标记 (Ri=1): 14 人</span>
+                <span class="badge badge-random">随机抽查: 8 人</span>
+            </div>
+        </div>
+    </div>
+    <div class="table-responsive">
+        <table class="table table-hover table-custom align-middle mb-0">
+            <thead>
+                <tr>
+                    <th class="ps-3">学号</th>
+                    <th>学生姓名</th>
+                    <th>小组</th>
+                    <th>负责模块</th>
+                    <th class="text-center">T 任务分</th>
+                    <th class="text-center">V-I 独立考核</th>
+                    <th class="text-center">差值 Di</th>
+                    <th>复核触发原因</th>
+                    <th>仲裁状态</th>
+                    <th class="text-center pe-3">操作</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for r in review_queue %}
+                {% set s = students[r.student_id] %}
+                <tr {% if r.r_flag == 1 %}class="table-danger-subtle"{% endif %}>
+                    <td class="ps-3 fw-bold">{{ r.student_id }}</td>
+                    <td>{{ s.name }}</td>
+                    <td><span class="badge bg-light text-dark border">{{ s.group_id }}</span></td>
+                    <td class="small">{{ s.role_name }}</td>
+                    <td class="text-center fw-bold {% if r.t_score >= 85 %}text-success{% endif %}">{{ r.t_score|int }}</td>
+                    <td class="text-center fw-bold {% if r.v_i_score < 60 %}text-danger{% else %}text-primary{% endif %}">{{ r.v_i_score|int }}</td>
+                    <td class="text-center fw-bold text-danger">
+                        {% if r.d_diff > 0 %}+{{ r.d_diff|int }}{% else %}{{ r.d_diff|int }}{% endif %}
+                    </td>
+                    <td>
+                        {% if r.r_flag == 1 %}
+                        <span class="badge badge-flagged"><i class="bi bi-exclamation-circle me-1"></i>独立考核未达标</span>
+                        {% else %}
+                        <span class="badge badge-random"><i class="bi bi-shuffle me-1"></i>随机抽检合规</span>
+                        {% endif %}
+                    </td>
+                    <td>
+                        {% if r.review_status == 'AGREED' %}
+                        <span class="badge bg-success">教师确认初判</span>
+                        {% elif r.review_status == 'PASSED_WITHOUT_ACTION' %}
+                        <span class="badge bg-secondary">抽检放行</span>
+                        {% else %}
+                        <span class="badge bg-warning text-dark">待审核</span>
+                        {% endif %}
+                    </td>
+                    <td class="text-center pe-3">
+                        <a href="/review/{{ r.student_id }}" class="btn btn-primary btn-sm px-3">
+                            <i class="bi bi-search me-1"></i>审查详情
+                        </a>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}
