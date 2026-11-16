@@ -1,12 +1,5 @@
 TPV-D Evidence-Centered Practicum Evaluation Package
-This repository accompanies the manuscript:
 
-Making Individual Learning Visible in GenAI-Era Collaborative Engineering Practicums: Evidence-Centered Task Decoupling and Discrepancy Triage
-
-Yonghong Zhu, Lei Zhang, and Zhongyu Liu
-
-School of Information Engineering (School of Big Data), Xuzhou University of Technology, China
-Repository Contents
 1.	Platform Source Code
 
 ●	tpvd_platform_v1.0.0.zip: Python FastAPI backend, NumPy/SciPy domain-specific evaluators (OLS static calibration, Hanning-windowed FFT ENOB/SINAD, Q15 cascaded Biquad IIR simulation, CRC-16-CCITT & Stop-and-Wait ARQ verifier), Git branch mining hooks, and the discrepancy screening scheduler ($D_i = T_i - V_{I,i}$).
