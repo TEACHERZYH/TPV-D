@@ -14,8 +14,4 @@ TPV-D Evidence-Centered Practicum Evaluation Package
 
 ●	电子信息专业综合实训任务书与自动化评分量规模板.docx / .pdf: Project task specifications, submodule interface contracts, and constructive alignment rubric templates.
 
-4.	De-Identified Empirical Dataset ($N = 95$, 20 Teams)
 
-●	电子信息专业实训评价脱敏数据集_95人实证样本.xlsx (and deidentified_cohort_data_95students): Irreversibly hashed student records containing four-dimensional TPV-D scores ($T, P, V_I, V_{AI}$), discrepancy indices ($D_i$), moderation triage flags ($R_i, Q_i$), pre-/post-remediation variant retest scores, and individual CLO attainment vectors ($CT1$–$CT4$).
-Ethical Oversight & Data Privacy
-All student identifiers were irreversibly hashed prior to archival in accordance with institutional ethical approval. The dataset is shared for academic verification and non-commercial educational research only.
